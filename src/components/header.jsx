@@ -12,10 +12,15 @@ import imgRegister from '../assets/img/imgs/registeriImg.gif'
 
 
 function Header(){
-    function btnenter(){
-        var grade = document.querySelector('#gridRedister')
-        grade.style.display ="block"
-    }
+
+
+        function handleSubmit(e) {
+          e.preventDefault();        
+          var grade = document.querySelector('#gridRedister')
+
+        grade.style.display ="block";
+
+        }
    
     return(
         <>
@@ -28,7 +33,7 @@ function Header(){
             </div>
         <div className={style.menu}> 
             <nav>
-                <Button onClick= 'btnenter()' className={style.btn} variant="outlined" size="small">Entrar</Button>
+                <Button onClick={handleSubmit} className={style.btn} variant="outlined" size="small">Entrar</Button>
                 <span className={style.bar}>|</span>
                 <Button className={style.btn} variant="outlined" size="small" >Cadastra</Button>
             </nav>
@@ -56,5 +61,6 @@ function Header(){
 </>
     )
 }
+
 
 export default Header
