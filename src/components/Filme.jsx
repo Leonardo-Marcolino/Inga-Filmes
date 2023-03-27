@@ -19,7 +19,7 @@ return(
 
         <div className={style.center}>
             <div className={style.title}>
-                <h3>Os Mais Vendidos</h3>
+                <h3>Os Mais Populares</h3>
             </div>
             <div className={style.grade}>
                 <ul>

@@ -104,6 +104,7 @@ nav > a > button:hover{
     z-index: 99999999;
     position:fixed;
     box-shadow: 0px 0px 10px 10000px rgba(0, 0, 0, 0.493);
+
     
 }
 .section{
@@ -134,11 +135,12 @@ nav > a > button:hover{
     
 }
 .register > a {
+    text-decoration: none;
     text-align: center;
    
 }
 .btnEnter{
-    margin: 2% 0;
+    margin: 3% 0;
     width: 80%;
     height: 10%;
     color: var(--White);
@@ -152,8 +154,10 @@ nav > a > button:hover{
 }
 .btnEnter:hover{
     transition: 1s;
-
     background-color: rgb(85, 125, 255);
+}
+p > a{
+    text-decoration: none;
 }
 
 
