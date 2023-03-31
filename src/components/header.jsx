@@ -10,7 +10,6 @@ import Col from 'react-bootstrap/Col';
 import imgRegister from '../assets/img/imgs/registeriImg.gif'
 
 
-
 function Header(){
 
 

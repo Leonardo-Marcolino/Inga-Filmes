@@ -37,14 +37,14 @@
     transform: scale(1.1);
 }
 
- .produto> img{
+ .filme > a > img{
     width: 200px;
     height: 280px;
     border-radius: 1rem;
     cursor: pointer;
     margin-bottom: 2rem;
 }
-.produto > span{
+.filme > span{
     display: block;
     font-weight: bold;
     font-size: 120%;

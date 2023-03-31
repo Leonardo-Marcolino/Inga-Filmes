@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import style from '../components/filme.module.css';
+import { Link } from "react-router-dom";
 
   
 export function Filme(){
@@ -26,8 +27,8 @@ return(
                     {movies.map(movie =>{
                         return(
                             <li key={movie.id}>
-                            <div className={style.produto}>
-                                <img src={`${img_path}${movie.poster_path}`} alt="" />
+                            <div className={style.filme}>
+                               <Link to ={`/details/${movie.id}`}><img src={`${img_path}${movie.poster_path}`} alt="" /></Link> 
                                 <span>{movie.title}</span>
                             </div>
                         </li>     
