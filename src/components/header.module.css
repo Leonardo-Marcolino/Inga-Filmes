@@ -1,40 +1,47 @@
 .header{
     width: 100%;
     height: 4rem;
-    z-index: 99999;
-    position: relative;
-
-    box-shadow: 1px 3px  20px black;
-    background-color: var(--blue-400);
-    justify-content: space-between;
+    z-index: 99;
+    position: fixed;
+    box-shadow: 0px  1px  100px black ;
+    background-color: rgba(0, 0, 0, 0.384);
+    justify-content: space-evenly;
 }
 .logo{
     color: var(--White);
 }
 
-    .logo img{
-        height: 50px;
-    }
-    .logo > span{
+.logo img{
+        height: 50px;  
+  }
+.logo > span{
         cursor: pointer;
         font-size: 30px;
         font-weight: bold;
     }
-    
+.btnMobile{
+        display: none;
+        border: transparent;
+        background-color: transparent;
+    }
+.iconMenu{
+    color: var(--White);
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    border: none;
+    background-color: none;
+}
 .navBar{
     margin-top: 1%;
     display: flex;
     opacity: 0.7;
 } 
-
 .navBar > input{
     width: 300px;
     padding: 2%;
     height: 90%;  
     border-radius: 10px;
     color: var(--White);
-  
-
     background-color: var(--black-900);
     border-color: var(--black-900);
 }
@@ -43,8 +50,6 @@
     padding: 2.5%;
     margin-left: -7px;
     z-index: 99999;
-
-
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -55,11 +60,14 @@
     border-left: none;
     cursor: pointer;
 }
+.navBar:focus{
+    opacity: 1;
+}
 
 input textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-
+    opacity: 1;
 
 }
 
@@ -70,94 +78,29 @@ input textarea:focus, input:focus {
 .btn{
     color: var(--White);
 }
-nav > a > button{
-    width: 90px;
-    height: 40px;
-    color: var(--White);
-    border-radius: 10px;
-    border: 3px solid var(--White);
-    background-color: transparent;
-
-}
-nav > a > button:hover{
-    background-color: var(--White);
-    color: var(--White);
-    font-weight: bold; 
-    transition: 0.5s;
-}
-.bar{
-    font-size: 25px;
-    margin: 0 10px;
-    color: rgba(59, 95, 214, 0.596);
-}
-
-.gridRedister{
-    width: 1100px;
-    margin: 0 auto;
-    display: none;
-    top:8rem;
-    height: 50%;
-    background-color: var(--gray-800);
-    text-align: center;
-    left: 28%;
-    border-radius: 5rem;
-    z-index: 99999999;
-    position:fixed;
-    box-shadow: 0px 0px 10px 10000px rgba(0, 0, 0, 0.493);
-
+@media (max-width: 780px) {
+    .navMobile{
+        color:  var(--White) !important;
+        background-color: var(--gray-800) !important;
+    }
     
+    .btnMobile{
+        display: flex;
+    }
+     .logo{
+        text-align: center;
+    }
+    .navBar > input{
+        display: none;
+    }
+    .navBar >  span{
+        opacity: 1;
+        color: var(--White);
+        border-radius: 5rem;
+        border: 5px solid transparent;        
+    }   
+    .icoNav{
+        font-size: 24px;
+    }
 }
-.section{
-    padding: 2%;
-}
-.imgRegister{
-    width: 500px;
-    height: 450px;
-    text-align: left;
-    border-top-left-radius: 5rem;
-    border-bottom-left-radius: 5rem;
-}
-
-.logoRegister {
-    font-size: 3rem;
-    padding: 0 4%;
-    text-align: center;
-}
-
-.register > div > input{
-    width: 80%;
-    padding: 1%;
-    margin: 3% 0;
-    color: var(--White);
-    font-size: 1.2rem;
-    border-radius: 1rem;
-    background-color: var(--gray-400);
-    
-}
-.register > a {
-    text-decoration: none;
-    text-align: center;
-   
-}
-.btnEnter{
-    margin: 3% 0;
-    width: 80%;
-    height: 10%;
-    color: var(--White);
-    font-weight:500;
-    font-size: 2rem;
-    background-color: rgb(41, 90, 248);
-    border: none;
-    border-radius: 1rem;
-    
-
-}
-.btnEnter:hover{
-    transition: 1s;
-    background-color: rgb(85, 125, 255);
-}
-p > a{
-    text-decoration: none;
-}
-
 

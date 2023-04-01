@@ -25,8 +25,9 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
-    column-gap: 4rem;
-    row-gap: 4rem;
+    padding-left: 0;
+    column-gap: 3rem;
+    row-gap: 3rem;
 }
 .grade > ul >li{
     display: flex;
@@ -54,7 +55,7 @@
     .grade > ul{
         max-width: 768px;
         grid-template-columns: repeat(4, 1fr);
-        column-gap: 2rem;
+        column-gap: 3rem;
     }
 }
 @media (max-width: 780px) {
@@ -62,6 +63,10 @@
         max-width: 768px;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
+        row-gap: 1rem;
+    }
+    .grade > ul> li:hover{
+        transform: scale(0.9);
     }
     
 }

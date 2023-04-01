@@ -11,9 +11,9 @@ function App() {
 
   return (
    <>
-      <div>
+
         <Header />
-      </div>
+  
       <Carrossel />
       <Filme />
   

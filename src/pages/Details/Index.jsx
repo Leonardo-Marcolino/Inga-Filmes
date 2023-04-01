@@ -1,16 +1,23 @@
 import { useParams } from "react-router-dom"
 import style from "../Details/index.module.css"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
-export function Details(){
+export function Details() {
 
-    const {id} = useParams()
-    console.log(id)
-    return(
-        <>
-        <h1 className={style.titulo}>ola mundoi</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, molestias veniam voluptate maiores nisi autem ad officia ipsum, a eos eius dolor, provident magnam laboriosam. Eos nemo aliquam velit? Veniam</p>
-        </>
-    )
+  const { id } = useParams()
+  console.log(id)
+  return (
+    <>
+      <Container>
+        <Row>
+          <Col>1 of 2</Col>
+          <Col>2 of 2</Col>
+        </Row>
+      </Container>
+    </>
+  )
 }
 
