@@ -6,6 +6,9 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { HiOutlineBars3 } from "react-icons/hi2";
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
+
 
 
 function Header() {
@@ -21,7 +24,7 @@ function Header() {
                 <div className="center">
                     <button variant="primary" className={style.btnMobile} onClick={handleShow}> <HiOutlineBars3 className={style.iconMenu} /></button>
                     <Offcanvas className={style.navMobile} show={show} onHide={handleClose}>
-                        <Offcanvas.Header className={style.ss} closeButton>
+                        <Offcanvas.Header className={style.closeButton} closeButton>
                             <Offcanvas.Title>Offcanvas</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
@@ -36,6 +39,9 @@ function Header() {
                     </div>
                     <div className={style.menu}>
                         <nav>
+                            <button>Entrar</button>
+                            <div className={style.bar}>|</div>
+                            <button>Cadastrar</button>
 
                         </nav>
                     </div>
