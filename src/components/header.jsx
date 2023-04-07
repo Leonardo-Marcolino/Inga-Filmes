@@ -3,11 +3,9 @@ import style from "./header.module.css"
 import { GiAstronautHelmet } from "react-icons/gi";
 import { BsSearch } from "react-icons/bs";
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { HiOutlineBars3 } from "react-icons/hi2";
-import Form from 'react-bootstrap/Form';
-import Modal from 'react-bootstrap/Modal';
+import {Register} from '../components/register';
 
 
 
@@ -19,6 +17,7 @@ function Header() {
 
     return (
         <>
+        
 
             <div className={style.header}>
                 <div className="center">
@@ -41,7 +40,9 @@ function Header() {
                         <nav>
                             <button>Entrar</button>
                             <div className={style.bar}>|</div>
-                            <button>Cadastrar</button>
+                            <button><Register /></button>
+                            
+
 
                         </nav>
                     </div>

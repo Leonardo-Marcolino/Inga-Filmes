@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { HiArrowLeftOnRectangle } from "react-icons/hi2";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 export function Details() {
@@ -47,7 +48,9 @@ export function Details() {
             <h1 className={style.title}>{movie.title}</h1>
             <p>{movie.sinopse}</p>
             <h4><span>Realease_Date: </span>{movie.releaseDate}</h4>
-            <div className={style.btnBack}><a href="http://localhost:3001/"><HiArrowLeftOnRectangle className={style.icon} /> Go Back</a></div>
+            <div className={style.btnBack}>
+              <a href="http://localhost:3001/"><HiArrowLeftOnRectangle className={style.icon} /> Go Back</a>
+              </div>
 
           </Col>
         </Row>
