@@ -1,11 +1,26 @@
 .carrossel{
+    padding-top: 4rem;
     max-width: 1380px;
     margin: 0 auto;
-    margin-top: 10px;
-    
+    margin-top: 5px;   
+}
+.carrossel img{
+    width: 50%;
+    height: 400px;
+    border-radius: 1rem;
 }
 
-.carrossel img{
-    height: 400px;
-    width: 50%;
+@media (max-width: 780px) {
+    
+    .carrossel{
+        max-width: 780px;
+        margin: 20px 20px;
+        padding-top: 5rem;
+    }
+    .carrossel img{
+        width: 50%;
+        height: 250px;
+        border-radius: 1rem;
+    }
+
 }

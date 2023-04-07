@@ -1,0 +1,71 @@
+
+.gradeDetails{
+    padding: 2%;
+    margin-top: 4%;
+    border-radius: 2rem;
+    background-color: var(--gray-800);
+    box-shadow: 10px 10px 10000px rgba(24, 24, 24, 0.575);
+}
+.leftDatail{
+    width: 20%;
+    margin-left: 5%;
+}
+.leftDatail > img{
+    width:  60%;
+    display: block;
+    border-radius: 2rem;
+}
+.leftDatail> button{
+    width: 60%;
+    height: 7%;
+    margin-top: 20px;
+    display: block;
+    font-size: 24px;
+    font-style: initial;
+    border: none;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var(--blue-400);
+    text-align: center;    
+    border-radius: 0.5rem;
+    box-shadow: 1px 5px 20px black;
+}
+.leftDatail> button:hover{
+    transition: 2s;
+    background-color: hsl(214, 72%, 44%);
+    cursor: pointer;
+}
+.rightDetail{
+    margin-left: -8%;
+}
+.rightDetail > p{
+    font-size: 24px;
+}
+.rightDetail > h4{
+    color: var(--gray-200);
+}
+.btnBack{
+    margin-top: 10%;
+    width: 100%;
+
+}
+.icon{
+    font-size: 35px;
+    padding-right: 1%;
+}
+.btnBack > a{
+
+    padding: 2%;
+    font-style: none;
+    font-weight: bold;
+    color: var(--white);
+    text-decoration: none;
+    background-color:var(--blue-400) ;
+    font-size: 24px;
+    border-radius: 0.8rem;
+}
+.btnBack > a:hover{
+    transition: 2s;
+    background-color: hsl(214, 72%, 44%);
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+
+.btnCadaster{
+    color: var(--White);
+    margin: 0  8%;
+    background:none ;
+    border: none;
+    font-weight: bold;
+}
+
+
+.modal{
+    --bs-modal-width: 880px !important;
+    --bs-modal-bg: var(--gray-800) !important;
+    --bs-modal-header-border-color: none !important;
+    --bs-modal-footer-border-color: none !important;
+    
+}
+
+.grade{
+    display: flex !important;
+}
+
+.leftGrade{
+    text-align: left;
+    display: flex !important ;
+}
+.leftGrade img{
+    width: 30rem;
+    height: 100%;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+.rightGrade{
+    text-align: center;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}

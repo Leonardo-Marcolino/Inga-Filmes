@@ -25,8 +25,9 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
-    column-gap: 4rem;
-    row-gap: 4rem;
+    padding-left: 0;
+    column-gap: 3rem;
+    row-gap: 3rem;
 }
 .grade > ul >li{
     display: flex;
@@ -37,14 +38,14 @@
     transform: scale(1.1);
 }
 
- .produto> img{
+ .filme > a > img{
     width: 200px;
     height: 280px;
     border-radius: 1rem;
     cursor: pointer;
     margin-bottom: 2rem;
 }
-.produto > span{
+.filme > span{
     display: block;
     font-weight: bold;
     font-size: 120%;
@@ -54,7 +55,7 @@
     .grade > ul{
         max-width: 768px;
         grid-template-columns: repeat(4, 1fr);
-        column-gap: 2rem;
+        column-gap: 3rem;
     }
 }
 @media (max-width: 780px) {
@@ -62,6 +63,10 @@
         max-width: 768px;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
+        row-gap: 1rem;
+    }
+    .grade > ul> li:hover{
+        transform: scale(0.9);
     }
     
 }

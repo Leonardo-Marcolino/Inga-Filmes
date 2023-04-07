@@ -5,8 +5,8 @@
   --black-700: hsl(0, 0%, 9%);
   --gray-100: hsl(0, 0%, 59%);
   --gray-200: hsl(0, 0%, 48%);
-  --gray-800: hsl(0, 0%, 4%);
-  --blue-400: hsl(236, 72%, 13%);
+  --gray-800: hsl(0, 0%, 7%);
+  --blue-400: hsl(214, 100%, 27%);
   --yellow-700: hsl(51, 98%, 48%);
   --yellow-900: hsl(51, 100%, 50%);
 }
@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: black;
+ background-color: rgba(0, 0, 0, 0.959);
   color: var(--White);
 }
 .center{
