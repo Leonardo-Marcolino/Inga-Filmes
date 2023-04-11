@@ -32,7 +32,7 @@
 }
 .leftDatail> button:hover{
     transition: 2s;
-    background-color: hsl(214, 72%, 44%);
+    background-color: #1f65c1;
     cursor: pointer;
 }
 .rightDetail{

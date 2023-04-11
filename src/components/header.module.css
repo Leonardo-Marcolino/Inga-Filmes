@@ -122,6 +122,7 @@ nav > button:hover{
         color: var(--White);
         border-radius: 5rem;
         border: 5px solid transparent;        
+    
     }   
     .icoNav{
         font-size: 24px;

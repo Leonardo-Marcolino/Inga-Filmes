@@ -9,10 +9,12 @@
 
 
 .modal{
+
     --bs-modal-width: 880px !important;
     --bs-modal-bg: var(--gray-800) !important;
     --bs-modal-header-border-color: none !important;
     --bs-modal-footer-border-color: none !important;
+    --bs-modal-padding: none !important;
     
 }
 
@@ -25,15 +27,39 @@
     display: flex !important ;
 }
 .leftGrade img{
-    width: 30rem;
+    width: 28rem;
     height: 100%;
-    border-bottom-left-radius: 2rem;
-    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 .rightGrade{
+    width: 100% ;
     text-align: center;
+    margin: 0 3%;
 }
 .logo{
+    margin-bottom: 8%;
     font-size: 40px;
     font-weight: bold;
+}
+.areaRegister{
+    width: 100%;
+
+}
+
+.rightGrade input{
+    width: 100%;
+    padding: 3%;
+    margin: 5% 0;
+    color: var(--gray-100);
+    background-color: var(--gray-800);
+    border: 2px solid #1f65c1;
+    border-radius: 5rem;
+}
+.alert {
+    
+    display: none;}
+
+.rightGrade input:focus{
+    color: var(--White);
 }

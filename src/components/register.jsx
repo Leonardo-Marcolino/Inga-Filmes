@@ -27,13 +27,30 @@ export function Register() {
                             <img src={Patreon} alt="" />
                         </div>
                         <div className={style.rightGrade}>
-                        <div className={style.logo}><span><GiAstronautHelmet />IngáFilmes</span></div>
-                            <input type="text" />
-                            <input type="email" />
-                            <input type="password" />
-                            <input type="password" />
+                            <div className={style.logo}><span><GiAstronautHelmet />IngáFilmes</span></div>
+
+                            <div className={style.areaRegister}>
+                                <input type="text" placeholder='Nome de Usuárioa' />
+                                <span className={style.alert}>senha invalida</span>
+                            </div>
+
+                            <div className={style.areaRegister}>
+                                <input type="email" placeholder='E-mail' />
+                                <span className={style.alert}>senha invalida</span>
+                            </div>
+
+                            <div className={style.areaRegister}>
+                                <input type="password" placeholder='Senha' />
+                                <span className={style.alert}>senha invalida</span>
+                            </div>
+
+                            <div className={style.areaRegister}>
+                                <input type="password" placeholder='Senha confirme' />
+                                <span className={style.alert}>senha invalida</span>
+                            </div>
+
                             <div><button btn={style.btnsingUp}>Cadastra-se</button></div>
-                            
+
 
                         </div>
                     </Modal.Body>
