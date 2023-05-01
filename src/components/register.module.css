@@ -38,28 +38,61 @@
     margin: 0 3%;
 }
 .logo{
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     font-size: 40px;
     font-weight: bold;
 }
 .areaRegister{
     width: 100%;
+    margin: 3% 0;
 
+}
+.rightGrade p{
+    margin-left: 1%;
+    margin-bottom: 0.7rem;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .rightGrade input{
     width: 100%;
-    padding: 3%;
-    margin: 5% 0;
+    padding: 2%;
     color: var(--gray-100);
     background-color: var(--gray-800);
-    border: 2px solid #1f65c1;
-    border-radius: 5rem;
-}
-.alert {
-    
-    display: none;}
+    border: none;
+    border-bottom: 2px solid #1f65c185;
 
+}
+.alert {    
+    display: none;
+}
 .rightGrade input:focus{
     color: var(--White);
+}
+.rightGrade > div > button{
+    width: 50%;
+    margin: 4% 0;
+    padding: 1rem ;
+    color: var(--White);
+    font-size:  1.1rem;
+    font-weight: bold;
+    background-color:#1f65c1be ;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.699);
+
+}
+.rightGrade > div > button:hover{
+    font-weight: bold;
+    background-color:#257df0c4 ;
+    transition: 2s;
+}
+.closeBtn{
+    cursor: pointer;
+    text-align: right;
+    font-size: 32px;
+    color: #ff0000;
+    display: block;
+    background-color: transparent;
 }

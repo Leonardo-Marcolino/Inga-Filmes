@@ -14,6 +14,7 @@ function Header() {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+    
 
     return (
         <>
@@ -27,8 +28,6 @@ function Header() {
                             <Offcanvas.Title>Offcanvas</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            Some text as placeholder. In real life you can have the elements you
-                            have chosen. Like, text, images, lists, etc.
                         </Offcanvas.Body>
                     </Offcanvas>
 

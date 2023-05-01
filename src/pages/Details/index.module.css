@@ -13,8 +13,10 @@
 .leftDatail > img{
     width:  60%;
     display: block;
+    box-shadow: 10px 10px 100px black;
     border-radius: 2rem;
 }
+
 .leftDatail> button{
     width: 60%;
     height: 7%;
