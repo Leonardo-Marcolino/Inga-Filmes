@@ -70,6 +70,74 @@
 .rightGrade input:focus{
     color: var(--White);
 }
+
+.line{
+    margin: 10% 0;
+    width: 100%;
+	position: relative;
+	text-align: center;
+}
+.ln1{
+    position: absolute;
+	height: 2px;
+	width: 100%;
+	top:15px;
+	background: var(--gray-100);
+}
+.line h5{
+    color: var(--gray-100);
+    position: relative;
+	background: var(--gray-800);
+	display: inline-block;
+	text-align: center;
+	padding:0 10px;
+}
+.appEnter{
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconEnter{
+    cursor: pointer;
+}
+.iconEnter img{
+    font-size: 1px;
+    width: 4rem;
+    
+
+}
+.iconfacebook:hover{
+    color: var(--gray-100);
+    background-color: #257df0c4;
+    border-radius: 4rem;
+    border: 1px solid var(--White);
+    box-shadow: 1px 1px 10px #257df0c4;
+    transition: 0.5s;
+}
+.iconinstagram:hover{
+    color: var(--gray-100);
+    background-color: #f02595c4;
+    border-radius: 4rem;
+    border: 1px solid var(--White);
+    box-shadow: 1px 1px 10px #f025d5c4;
+    transition: 0.5s;
+}
+.icontwitter:hover{
+    color: var(--gray-100);
+    background-color: #4687ddc4;
+    border-radius: 4rem;
+    border: 1px solid var(--White);
+    box-shadow: 1px 1px 10px #4687ddc4;
+    transition: 0.5s;
+}
+.icongithub:hover{
+    color: var(--gray-100);
+    background-color: #fffffffd;
+    border-radius: 4rem;
+    border: 1px solid var(--White);
+    box-shadow: 1px 1px 10px #fffffffd;
+    transition: 0.5s;
+}
+
 .rightGrade > div > button{
     width: 50%;
     margin: 4% 0;

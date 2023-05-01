@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { HiOutlineBars3 } from "react-icons/hi2";
 import {Register} from '../components/register';
+import {Singin} from '../components/singin';
 
 
 
@@ -37,7 +38,7 @@ function Header() {
                     </div>
                     <div className={style.menu}>
                         <nav>
-                            <button>Entrar</button>
+                            <button><Singin /></button>
                             <div className={style.bar}>|</div>
                             <button><Register /></button>
                             
