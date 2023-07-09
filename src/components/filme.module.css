@@ -15,10 +15,6 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-
-
-    
-
 }
 .grade > ul{
     list-style: none;

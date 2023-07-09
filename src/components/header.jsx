@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { HiOutlineBars3 } from "react-icons/hi2";
 import {Register} from '../components/register';
+import {Singin} from '../components/singin';
 
 
 
@@ -14,6 +15,7 @@ function Header() {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+    
 
     return (
         <>
@@ -27,8 +29,6 @@ function Header() {
                             <Offcanvas.Title>Offcanvas</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            Some text as placeholder. In real life you can have the elements you
-                            have chosen. Like, text, images, lists, etc.
                         </Offcanvas.Body>
                     </Offcanvas>
 
@@ -38,7 +38,7 @@ function Header() {
                     </div>
                     <div className={style.menu}>
                         <nav>
-                            <button>Entrar</button>
+                            <button><Singin /></button>
                             <div className={style.bar}>|</div>
                             <button><Register /></button>
                             
