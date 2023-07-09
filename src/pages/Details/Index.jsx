@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { HiArrowLeftOnRectangle } from "react-icons/hi2";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+
 
 
 export function Details() {

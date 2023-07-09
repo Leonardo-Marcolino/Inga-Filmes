@@ -72,11 +72,9 @@ input textarea:focus, input:focus {
     opacity: 1;
 
 }
-.menu{
-
-}
 
 .menu> nav{
+    margin-right: 20px;
     padding-top: 15%;
     display: flex;
     color: var(--White);
